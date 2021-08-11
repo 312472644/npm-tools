@@ -1,0 +1,7 @@
+{
+	"registry": [
+		"https://registry.npmjs.org/",
+		"http://npm.dev.casstime.com/",
+		"https://registry.npm.taobao.org/"
+	]
+}

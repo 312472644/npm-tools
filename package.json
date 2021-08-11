@@ -1,0 +1,23 @@
+{
+  "name": "npm-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "link": "npm link",
+    "unlink": "npm unlink"
+  },
+  "author": "sugar",
+  "license": "ISC",
+  "bin": {
+    "npm-tools": "./bin/npm-tools"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "colors": "^1.4.0",
+    "commander": "^8.1.0",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1"
+  },
+  "dependencies": {}
+}
