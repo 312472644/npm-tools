@@ -1,0 +1,3 @@
+#!use/bin/env node
+
+require('../lib/npm-tool-config/npm-tools-proxy.js');

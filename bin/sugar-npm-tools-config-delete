@@ -1,0 +1,3 @@
+#!use/bin/evn node
+
+require('../lib/npm-tool-config/npm-tool-delete.js');

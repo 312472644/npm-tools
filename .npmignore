@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+# src
+/src
+
+/.gitignore
+
+rollup.config.js
+

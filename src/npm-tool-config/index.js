@@ -9,7 +9,8 @@ const init = () => {
   // 选择npm代理
   // executableFile 系统默认会从bin路径下寻找，指定定义命令文件即可
   configCommand
-    .command('proxy', 'select registry', { executableFile: 'npm-tools-config-proxy' });
+    .command('proxy', 'select a registry', { executableFile: 'sugar-npm-tools-config-proxy' })
+    .command('delete', 'delete a registry', { executableFile: 'sugar-npm-tools-config-delete' });
 
   //新增npm代理
   addConfigCommand
@@ -20,7 +21,6 @@ const init = () => {
     });
 
   configCommand.addCommand(addConfigCommand);
-
   return configCommand;
 }
 
